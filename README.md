@@ -1,6 +1,32 @@
 # AV-neural-visions
+
+GENERATIVE VIDEO WITH AI based on real time multiple camera feeds for EXPANDED REALITY
+
 This project aims to record and stream audio and video from multiple ESP32 cameras and include machine learning as seeds for the GAN. 
-## Getting Started
+
+Image Generation
+Generative Adversarial Networks (GANs):
+GANs consist of two neural networks, a generator and a discriminator, that compete against each other to produce realistic images.
+Popular GAN architectures include DCGAN, StyleGAN, and BigGAN.
+Variational Autoencoders (VAEs):
+VAEs are another type of generative model that learns to encode and decode data, generating new images that resemble the training data.
+
+Sound Generation
+WaveNet:
+Developed by DeepMind, WaveNet is a deep generative model for generating raw audio waveforms, and it has been used for text-to-speech (TTS) applications.
+Generative Models for Audio Synthesis:
+
+Models like GANs and VAEs can also be adapted for audio generation.
+Example Libraries and Frameworks
+TensorFlow and PyTorch: Popular deep learning frameworks that provide tools and libraries for building and training generative models.
+Keras: A high-level neural networks API, written in Python and capable of running on top of TensorFlow.
+
+
+Setting up ESP32 cameras for streaming: Configure multiple ESP32 cameras to capture and stream video to a central server or processing unit.
+
+Recording and storing video data: Collect and store video data from the ESP32 cameras for further processing.
+
+Machine learning with GANs: Use the recorded video data as seeds for a Generative Adversarial Network (GAN) to create new content.
 
 ### Prerequisites
 
